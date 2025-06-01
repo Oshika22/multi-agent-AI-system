@@ -64,3 +64,13 @@ You can simulate different types of inputs inside main.py by switching between:
 run_flow(email_data)
 run_flow(json_data)
 You can also see the memory logs
+
+🧠 Memory Logs
+All processed inputs are logged into memory.db. You can view memory logs printed at the end of each run.
+
+🧪 Sample Inputs
+Add your test inputs under sample_inputs/. You can add:
+
+sample_email.txt — for raw email-style input
+
+sample_json.json — for structured JSON
